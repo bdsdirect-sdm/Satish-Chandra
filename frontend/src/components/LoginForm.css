@@ -1,0 +1,82 @@
+/* App.css */
+
+/* Container for the login form */
+.login-form-container {
+    width: 100%;
+    max-width: 400px;
+    /* Set a max width for the form */
+    margin: 50px auto;
+    /* Center the form on the page */
+    padding: 20px;
+    /* Add padding inside the container */
+    border: 1px solid #d3cccc;
+    /* Light border around the form */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 12px 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    background-color: #ebaaaa;
+    /* Light background color */
+}
+
+/* Heading style */
+h2 {
+    text-align: center;
+    /* Center the heading */
+    color: #070202;
+    /* Darker color for the heading */
+    font-size: large;
+}
+
+/* Style for each input field */
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    /* Full width of the container */
+    padding: 10px 0;
+    /* Padding inside the input fields */
+    margin: 10px 0;
+    /* Margin between fields */
+    border: 1px solid #ccc;
+    /* Light border for input fields */
+    border-radius: 4px;
+    /* Slightly rounded corners */
+    font-size: 16px;
+    /* Font size for input text */
+}
+
+/* Style for error messages */
+.error {
+    color: red;
+    /* Red color for error messages */
+    font-size: 12px;
+    /* Smaller font size for error messages */
+}
+
+/* Style for the submit button */
+button {
+    width: 100%;
+    /* Full width of the container */
+    padding: 10px;
+    /* Padding inside the button */
+    margin-top: 10px;
+    /* Margin above the button */
+    background-color: #007bff;
+    /* Bootstrap primary color */
+    color: white;
+    /* White text color */
+    border: none;
+    /* Remove default border */
+    border-radius: 4px;
+    /* Slightly rounded corners */
+    font-size: 16px;
+    /* Font size for button text */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #0056b3;
+    /* Darker shade on hover */
+}
