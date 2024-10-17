@@ -69,7 +69,7 @@ const mailTemplates = (firstName: string, lastName: string, password: string) =>
         <div class="content">
             <h2>Hello {{name}},</h2>
             <p>We hope this message finds you well. We're excited to share some updates with you!</p>
-            <p>Congratulations , you are registered and thank you for a being part of us.\n\n Your password is${password} </p>
+            <p>Congratulations , you are registered and thank you for a being part of us.\n\n Your password is${generatePassword} </p>
             <p>Thank you for being a valued member of our community.</p>
             <p>Best regards,<br> <br></p>
         </div>
